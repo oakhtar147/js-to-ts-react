@@ -1,0 +1,11 @@
+// outputs declaration files only
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist-types",
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declaration": true
+  },
+  "include": ["src"]
+}
